@@ -24,7 +24,7 @@ import sys
 finbert = pipeline('sentiment-analysis', model='yiyanghkust/finbert-tone')
 
 # Initialize NewsAPI
-newsapi = NewsApiClient(api_key='f706d06153dc447fb2d893cb0760beea')  # Replace with your actual key
+newsapi = NewsApiClient(api_key='')  # Replace with your actual key
 
 def run_stock_prediction(ticker, period_choice):
     ticker = ticker.upper()
